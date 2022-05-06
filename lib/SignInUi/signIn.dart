@@ -42,7 +42,7 @@ class _SignInState extends State<SignIn> {
               child: Text("Forgot Passowrd ?",style: TextStyle(fontSize: 20),),
             ),
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(20.0),
               child: RaisedButton(onPressed: (){},child: Text("SignIn",style: TextStyle(fontSize: 20,fontWeight: FontWeight.w800),),),
             )
           ],
